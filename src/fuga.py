@@ -57,5 +57,5 @@ class Fuga:
             return 'coffee'
         elif KUWABA_POINT >= 15:
             return 'ビーフカレー'
-        else
+        else:
             return 'ブッチャー'
