@@ -13,7 +13,6 @@ class HogeTest(unittest.TestCase):
 
     def test_fuga(self):
         fuga = Fuga()
-        self.assertTrue(fuga.index())
         self.assertEqual(fuga.judge('藤田','喫茶店','いいぜ'),'coffee')
         self.assertEqual(fuga.judge('アテン厨','パズドラ','変な'),'ビーフカレー')
         self.assertEqual(fuga.judge('ムーニーマン','15時起き','あれ'),'泡盛')
