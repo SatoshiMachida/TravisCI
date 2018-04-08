@@ -53,11 +53,11 @@ class Fuga:
         self.checkName(name)
         self.checkHobby(hobby)
         self.checkSpeak(speak)
-        if self.FUJITA_POINT >= 15:
+        if self.FUJITA_POINT >= 14:
             return '泡盛'
-        elif self.DATESI_POINT >= 15:
+        elif self.DATESI_POINT >= 14:
             return 'coffee'
-        elif self.KUWABA_POINT >= 15:
+        elif self.KUWABA_POINT >= 14:
             return 'ビーフカレー'
         else:
             return 'ブッチャー'
