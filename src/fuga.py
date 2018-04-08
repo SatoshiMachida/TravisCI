@@ -9,7 +9,7 @@ class Fuga:
     def index(self):
         return True
         
-    def recommendDrinkGenerator():
+    def recommendDrinkGenerator(self):
         print ('あなたの名前を入力してください。')
         input_test_name = raw_input('>>>  ')
         print ('あなたの趣味を入力してください。')
@@ -19,7 +19,7 @@ class Fuga:
 
         print ('あなたへのおすすめは' + judge(input_test_name, input_test_hobby, input_test_speak) + 'です。')
         
-    def checkName(name):
+    def checkName(self, name):
         if name in ['Fujita', 'F', '藤田', 'wotsushi', 'Wotsushi', 'W', 'あれ', 'これ', 'それ', '変な', '神', '太陽神', '中本', 'ムーニー', 'ムーニーマン']:
             FUJITA_POINT+=10
         elif name in ['Iwadate', 'I', '岩舘', 'だて', 'date', '伊達市', 'D', 'ヒュゥ', 'シュゥ', 'アァ', '謀略神', '命名神', '第4位', 'マヨネーズLOVE']:
@@ -27,7 +27,7 @@ class Fuga:
         elif name in ['Kuwabara' ,'K', '桑原', 'KuwabaraK', 'くわ', '煽り魔', 'ヤダヤダヤダヤダ', 'アテン厨', '浦飯交換所', 'ハァア～', 'モンハンプロ']:
             KUWABA_POINT+=10
 
-    def checkHobby(hobby):
+    def checkHobby(self, hobby):
         if hobby in ['水泳', '最適化', 'python', '弁当', '艦これ', '辛いもの', 'ムーニーマン']:
             FUJITA_POINT+=7
         elif hobby in ['喫茶店', 'rails', '残業', '散歩', 'SAO', '禁書目録', '超電磁砲']:
@@ -39,7 +39,7 @@ class Fuga:
             DATESI_POINT+=5
             KUWABA_POINT+=5            
 
-    def checkSpeak(speak):
+    def checkSpeak(self, speak):
         if speak in ['あれ', 'これ', 'それ', '変な', 'スコヴィル値']:
             FUJITA_POINT+=4
         elif speak in ['ヒュゥ', 'シュゥ', 'アァ', 'フゥ', 'いいぜ']:
@@ -47,7 +47,7 @@ class Fuga:
         elif speak in ['ヤダヤダヤダヤダ', 'は？', 'それはないっしょ', 'ハァア～', '聞いてないんだがぁ']:
             KUWABA_POINT+=4
 
-    def judge(name, hobby, speak):
+    def judge(self, name, hobby, speak):
         checkName(name)
         checkHobby(hobby)
         checkSpeak(speak)
