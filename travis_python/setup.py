@@ -7,7 +7,7 @@ sys.path.append('./tests')
 setup(
     name = 'Hoge',
     version = '0.1',
-    description='This is test codes for travis ci',
+    description='This is test code for travis ci',
     packages = find_packages(),
     test_suite = 'hoge_test.suite'
 )
