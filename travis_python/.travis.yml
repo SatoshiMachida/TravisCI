@@ -4,5 +4,5 @@ python:
   - 3.3
   - 3.4
 
-script:
+script: ""
   - coverage run --source=hoge_test setup.py test
