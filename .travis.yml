@@ -1,7 +1,9 @@
 language: python
+
 python:
 - 3.3
 - 3.4
+
 install:
 - pip install coveralls
 
@@ -10,6 +12,7 @@ script:
 
 after_success:
 - coveralls
+
 notifications:
   slack:
     secure: qiJACV0XxdH8sTFlWoo6f9jJdHSsfhoqcIT3bvvYlh7V5nbR1powHg7WJuK/SgXt9fFHRLCkUjrZNUXnmm+I4eCtFiDa4EZ8/kaCAvt50pPmZGyhq5SHeKt55yxXOkb53K6q0BDyK7sT+/JQnaulbh0rCEe/H3v4ee7OHbaLYtpTSlvBREmH6gLen6pXV/6lGVVa26eejR4UET3JFoZl2hCYZNMUY+r+YGHCwbgPFEo9CJa6teSqUQtWidtHVe1ZqWU6aiSbQqr6Cxi/GL1V9PeA/SPtiz0b+5kVjW754WnCzgJqHuw8pvX/tPwcAyKgCA7BFDUq6H7P0nvxgTfpInHuk1PQHvDLZlUt244gp5SKlWIJFv13Q4nXA8d6hL69O4jBdCvTYPltOpCCmZgcmVmtg2edatQG0w9OeKUhXO/mDSB7VzOLRX8ZGhJ2Q78JtTAL6+ADZtAoyHQeEfX9RGKR1DHQAN5mN0VW9sf+9lV4kkIYxPs+n0jkBGAomcTRQxqCgwtCEbZCDc9Y7lH1rua6Ts5Br0gFYUCvG9p1vuA3rfSLyjKCDozdLbkAC9xR8h06G1ZIQpWeguyBrxQLbowIWQvTMWrAxgTvFdA/M1QQxVc8JTRmfnOjSFJm7HZowuNScu2lRtmQwPcog32j94pjmuTbrBMoHOYeEW/SAWk=
