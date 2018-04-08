@@ -48,9 +48,9 @@ class Fuga:
             KUWABA_POINT+=4
 
     def judge(self, name, hobby, speak):
-        checkName(name)
-        checkHobby(hobby)
-        checkSpeak(speak)
+        checkName(self, name)
+        checkHobby(self, hobby)
+        checkSpeak(self, speak)
         if FUJITA_POINT >= 15:
             return '泡盛'
         elif DATESI_POINT >= 15:
