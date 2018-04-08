@@ -47,6 +47,9 @@ class Fuga:
             self.KUWABA_POINT+=4
 
     def judge(self, name, hobby, speak):
+        self.FUJITA_POINT=0
+        self.DATESI_POINT=0
+        self.KUWABA_POINT=0
         self.checkName(name)
         self.checkHobby(hobby)
         self.checkSpeak(speak)
