@@ -23,7 +23,7 @@ class Fuga:
             self.FUJITA_POINT+=10
         elif name in ['Iwadate', 'I', '岩舘', 'だて', 'date', '伊達市', 'D', 'ヒュゥ', 'シュゥ', 'アァ', '謀略神', '命名神', '第4位', 'マヨネーズLOVE']:
             self.DATESI_POINT+=10
-        elif name in ['Kuwabara' ,'K', '桑原', 'KuwabaraK', 'くわ', '煽り魔', 'ヤダヤダヤダヤダ', 'アテン厨', '浦飯交換所', 'ハァア～', 'モンハンプロフェッショナル']:
+        elif name in ['Kuwabara' ,'K', '桑原', 'KuwabaraK', 'くわ', '煽り魔', 'ヤダヤダヤダヤダ', 'アテン厨', '浦飯交換所', 'ハァア～', 'モンハンプロ']:
             self.KUWABA_POINT+=10
 
     def checkHobby(self, hobby):
